@@ -6,6 +6,13 @@ import styles from "./App.module.css";
 
 import image from "./images/image.png";
 
+// Must Install material ui and chart.js with following commands before running the project:
+
+// npm install @material-ui/core
+// npm install @material-ui/icons
+// npm install chart.js
+// npm install --save react-chartjs-2 chart.js
+
 class App extends React.Component {
   state = {
     data: {},
