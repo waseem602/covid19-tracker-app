@@ -42,11 +42,12 @@
     ]
   },
   "devDependencies": {
-  "surge": "latest",
-  "git-scripts": "0.2.1"
-},
-"git": {
-  "scripts": {
-    "pre-push": "surge --project ./ --domain example-githooks.surge.sh"
+    "surge": "latest",
+    "git-scripts": "0.2.1"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ waseem602-project002-covid19-tracker-app.surge.sh"
+    }
   }
-}}
+}
