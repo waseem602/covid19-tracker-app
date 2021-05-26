@@ -5,14 +5,18 @@ import styles from "./Cards.module.css";
 
 const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   if (!confirmed) {
-    return "Loading...";
+    return <h2>LOADING...</h2>;
   }
 
   return (
     <div className={styles.container}>
       <Typography gutterBottom variant="h4" component="h2">
-        Global
+        COVID-19 Tracker Application -{" "}
+        <a href="https://github.com/waseem602/covid19-tracker-app">
+          Git Source
+        </a>
       </Typography>
+      <br />
       <Grid container spacing={3} justify="center">
         <CardComponent
           className={styles.infected}
