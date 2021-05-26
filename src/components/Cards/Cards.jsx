@@ -17,6 +17,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         </a>
       </Typography>
       <br />
+      <br />
       <Grid container spacing={3} justify="center">
         <CardComponent
           className={styles.infected}
